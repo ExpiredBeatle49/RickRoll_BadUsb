@@ -1,3 +1,4 @@
+@echo off
 cd %tmp%
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\rollyou.vbs"
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\volup.vbs"
