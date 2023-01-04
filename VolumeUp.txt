@@ -1,0 +1,3 @@
+GUI r
+DELAY 600
+STRING powershell
